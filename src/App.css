@@ -66,7 +66,7 @@ td {
   /* border-radius: ; */
   /* padding: 0!important; */
   /* padding: 8px 10px; */
-  width: 150px;
+  width: auto;
 }
 .upper th {
   color: skyblue !important;
@@ -78,6 +78,7 @@ td {
   font-weight: normal;
   color: grey;
   /* background: #000; */
+  width: 250px;
 }
 
 .data-body {
@@ -124,15 +125,40 @@ tfoot tr td {
   cursor: pointer;
 }
 
-
-.edit{
+.edit {
   margin-right: 20px;
 }
 
-.link-add input{
+.link-add input {
   padding: 0 10px;
   outline: none;
   border-radius: 10px;
   border: 1px solid black;
-
 }
+.rti-body {
+  font-size: 12px;
+}
+
+.rti-body tr {
+  height: 30px;
+}
+.rti-body tr td input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  padding: 0 20px;
+}
+.rti-body > tr > td:nth-child(2) {
+  width: 500px;
+  /* display: flex; */
+}
+.rti-body > tr > td:nth-child(3) {
+  width: 400px;
+}
+
+/* .prev-td {
+  width: 400px;
+}
+.prev-td-not {
+  width: 0;
+} */
